@@ -1,0 +1,60 @@
+.work-container {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0;
+  color: #FAFAE8;
+
+  background: rgba(121,194,178,1);
+  background: -moz-linear-gradient(left, rgba(121,194,178,1) 0%, rgba(214,144,162,1) 25%, rgba(162,96,111,1) 45%, rgba(250,250,232,1) 72%, rgba(250,250,232,1) 82%, rgba(72,161,140,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(121,194,178,1)), color-stop(25%, rgba(214,144,162,1)), color-stop(45%, rgba(162,96,111,1)), color-stop(72%, rgba(250,250,232,1)), color-stop(82%, rgba(250,250,232,1)), color-stop(100%, rgba(72,161,140,1)));
+  background: -webkit-linear-gradient(left, rgba(121,194,178,1) 0%, rgba(214,144,162,1) 25%, rgba(162,96,111,1) 45%, rgba(250,250,232,1) 72%, rgba(250,250,232,1) 82%, rgba(72,161,140,1) 100%);
+  background: -o-linear-gradient(left, rgba(121,194,178,1) 0%, rgba(214,144,162,1) 25%, rgba(162,96,111,1) 45%, rgba(250,250,232,1) 72%, rgba(250,250,232,1) 82%, rgba(72,161,140,1) 100%);
+  background: -ms-linear-gradient(left, rgba(121,194,178,1) 0%, rgba(214,144,162,1) 25%, rgba(162,96,111,1) 45%, rgba(250,250,232,1) 72%, rgba(250,250,232,1) 82%, rgba(72,161,140,1) 100%);
+  background: linear-gradient(to right, rgba(121,194,178,1) 0%, rgba(214,144,162,1) 25%, rgba(162,96,111,1) 45%, rgba(250,250,232,1) 72%, rgba(250,250,232,1) 82%, rgba(72,161,140,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79c2b2', endColorstr='#48a18c', GradientType=1 );
+  //gradient code generated from http://www.cssmatic.com/gradient-generator
+
+  .work-title {
+    font-size: 2.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+    font-weight: 200;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .work-holder {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+
+      &:hover {
+
+      }
+    }
+
+    .work-item {
+      flex-basis: 31%;
+      margin-right: 1rem;
+      box-sizing: border-box;
+      box-shadow:  0.4rem 0.8rem 2.5rem 0rem #70777A;
+
+    }
+
+    .work-copy {
+      font-size: 1.1rem;
+      color: #4B5052;
+      background-color: #FAFAE8;
+      margin-top: -5px;
+      margin-bottom: 0;
+      padding: 1%;
+    }
+  }
+
+}
