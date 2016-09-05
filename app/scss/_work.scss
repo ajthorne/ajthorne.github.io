@@ -44,16 +44,25 @@
       margin-right: 1rem;
       box-sizing: border-box;
       box-shadow:  0.4rem 0.8rem 2.5rem 0rem #70777A;
+      background-color: #FAFAE8;
 
     }
 
     .work-copy {
       font-size: 1.1rem;
       color: #4B5052;
-      background-color: #FAFAE8;
-      margin-top: -5px;
+      margin-top: -8px;
       margin-bottom: 0;
-      padding: 1%;
+      padding: 3%;
+      text-align: justify;
+
+      span {
+        display: block;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem;
+      }
     }
   }
 
