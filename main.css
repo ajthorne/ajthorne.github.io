@@ -134,7 +134,33 @@ nav {
     border-radius: 8px;
     border: 0;
     font-size: 1rem;
-    box-shadow: 0.4rem 0.8rem 2.5rem 0rem #70777A; }
+    box-shadow: 0.4rem 0.8rem 2.5rem 0rem #70777A;
+    font-family: helvetica; }
+  .about-container .pdf-modal-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  .about-container .pdf-modal {
+    background: #79C2B2;
+    z-index: 0;
+    height: 80%;
+    width: 80%;
+    overflow: auto;
+    border-radius: 8px; }
+    .about-container .pdf-modal button {
+      float: right;
+      border: 0;
+      background: transparent;
+      box-shadow: 0 0; }
+      .about-container .pdf-modal button .fa-remove {
+        font-size: 1.3rem; }
 
 footer {
   background: #4B5052;
