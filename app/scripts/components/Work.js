@@ -33,7 +33,7 @@ const Work = React.createClass({
           </li>
           <li className="work-item">
             <div className="hoveritem">
-              <a target="_blank" href="http://ajthorne-reactpardy.surge.sh/">
+              <a target="_blank" href="http://ajthorne-bringtheband.surge.sh/">
               <span>Bring the Band Live Site</span>
               <img src="../../assets/bringtheband.png"/></a>
             </div>

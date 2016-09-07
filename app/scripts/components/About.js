@@ -1,7 +1,28 @@
 import React from 'react';
 
 const About = React.createClass({
+  getInitialState: function () {
+    return {showModal: false}
+  },
+
+  resumeHandler: function () {
+    this.setState({showModal: !this.state.showModal})
+  },
+
   render: function () {
+    let modal;
+    if (this.state.showModal) {
+      modal = (
+      <div className="pdf-modal-container">
+        <div className="pdf-modal">
+        <button><i className="fa fa-remove" onClick={this.resumeHandler}></i></button>
+          <object width="100%" height="100%" type="application/pdf" data="../../assets/AThorne-Resume.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" id="pdf_content">
+          </object>
+        </div>
+      </div>
+      )
+    }
+
     return (
       <section className="about-container">
         <h2 className="about-title">About</h2>
@@ -23,8 +44,9 @@ const About = React.createClass({
           </li>
         </ul>
         <div className="button-holder">
-          <button>View My Resume <i className="fa fa-angle-double-right"></i></button>
+          <button onClick={this.resumeHandler}>View My Resumé <i className="fa fa-angle-double-right"></i></button>
         </div>
+        {modal}
       </section>
     )
   }
