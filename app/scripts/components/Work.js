@@ -16,7 +16,7 @@ const Work = React.createClass({
             </div>
             <p className="work-copy">
             <span>Book Nook </span>
-            An app to support building a literacy community among adolescents. Find new friends, new books to read, and explore an awesome new social media! This was my final project for The Iron Yard and was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, Kinvey, and Google Books API.
+            An app to support building a literacy community among adolescents. Find new friends, new books to read, and explore an awesome new social media! This was my final project for The Iron Yard and was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, Kinvey, a back-end service, and Google Books API. This is built for all screen sizes and devices. Build time was 3 weeks.
             View code on GitHub <a target="_blank" className="gh-work-link" href="https://github.com/ajthorne/book-nook">here</a>.
             </p>
           </li>
@@ -28,7 +28,7 @@ const Work = React.createClass({
             </div>
             <p className="work-copy">
             <span>React-Pardy!</span>
-            A Jeopardy clone app. This was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, and Kinvey.
+            A Jeopardy clone app. This was my first major project working with React.js. It was built with React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, and Kinvey, a back-end service. This is designed responsively. Build time was 5 days.
             View code on GitHub <a target="_blank" className="gh-work-link" href="https://github.com/ajthorne/reactopardy">here</a>.</p>
           </li>
           <li className="work-item">
@@ -39,7 +39,7 @@ const Work = React.createClass({
             </div>
               <p className="work-copy">
               <span>Bring the Band</span>
-              A search and voting app built to manipulate data rendered from Spotify's API. This was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, and Kinvey.
+              A search and voting app built to manipulate data rendered from Spotify's API. This was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, and Kinvey, a back-end service. This is designed responsively. Build time was 1 week.
               View code on GitHub <a target="_blank" className="gh-work-link" href="https://github.com/ajthorne/bring-the-band">here</a>.
               </p>
           </li>
