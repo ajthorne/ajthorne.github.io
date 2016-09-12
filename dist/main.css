@@ -69,8 +69,6 @@ nav {
         background: #D690A0;
         padding: 1%;
         border-radius: 5px; }
-        .work-container .featured-work .featured-hover .featured-name:hover {
-          opacity: 0; }
       .work-container .featured-work .featured-hover .hidden-link {
         display: none;
         position: absolute;
