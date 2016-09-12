@@ -1,6 +1,7 @@
 nav {
   background: #4B5052;
-  color: #FAFAE8; }
+  color: #FAFAE8;
+  width: 100%; }
   nav .logo-header {
     display: inline-block;
     margin: 1%;
@@ -10,20 +11,24 @@ nav {
     border: 5px solid #FAFAE8;
     font-size: 2rem;
     font-family: 'Suez One', serif; }
-  nav .contact-icons {
+  nav .nav-links {
     list-style-type: none;
     float: right;
     padding: 0;
     margin-right: 0.5rem; }
-    nav .contact-icons li {
+    nav .nav-links li {
       display: inline-block;
       font-size: 2.3rem;
       margin-top: 1.5rem;
       margin-right: 0.8rem; }
-      nav .contact-icons li a {
-        color: #FAFAE8; }
-        nav .contact-icons li a:hover {
-          color: #79C2B2; }
+      nav .nav-links li a {
+        color: #FAFAE8;
+        height: 80px;
+        padding: 0 40px;
+        vertical-align: middle; }
+        nav .nav-links li a:hover {
+          color: #79C2B2;
+          cursor: pointer; }
 
 .work-container {
   width: 100%;
@@ -161,6 +166,40 @@ nav {
       box-shadow: 0 0; }
       .about-container .pdf-modal button .fa-remove {
         font-size: 1.3rem; }
+
+.contact-container {
+  background: #48A18C;
+  padding: 0.5rem;
+  padding-top: 3rem;
+  color: #FAFAE8;
+  padding-bottom: 3rem; }
+  .contact-container .contact-title {
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: initial; }
+  .contact-container .contact-holder {
+    list-style-type: none;
+    display: flex; }
+    .contact-container .contact-holder li {
+      font-size: 4rem;
+      flex-basis: 25%;
+      text-align: center; }
+      .contact-container .contact-holder li a {
+        color: #FAFAE8; }
+        .contact-container .contact-holder li a:hover {
+          color: #D690A0; }
+      .contact-container .contact-holder li .contact-icon-title {
+        font-size: 1.3rem;
+        margin: 0;
+        margin-top: -1rem; }
+      .contact-container .contact-holder li .contact-icon-copy {
+        font-size: 0.8rem;
+        padding: 2%;
+        margin: 0;
+        text-align: center; }
 
 footer {
   background: #4B5052;
