@@ -1,6 +1,11 @@
 nav {
   background: #4B5052;
   color: #FAFAE8;
+  width: 100%;
+  // z-index: 99;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
 
   .logo-header {
     display: inline-block;
@@ -14,7 +19,7 @@ nav {
     // font-family: 'Abril Fatface', cursive;
   }
 
-  .contact-icons {
+  .nav-links {
     list-style-type: none;
     float: right;
     padding: 0;
@@ -28,9 +33,13 @@ nav {
 
       a {
         color: #FAFAE8;
+        height: 80px;
+        padding: 0 40px;
+        vertical-align: middle;
 
         &:hover {
           color: #79C2B2;
+          cursor: pointer;
         }
       }
     }

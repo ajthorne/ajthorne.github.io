@@ -1,0 +1,52 @@
+.contact-container {
+  background: #48A18C;
+  padding: 0.5rem;
+  padding-top: 3rem;
+  color: #FAFAE8;
+  padding-bottom: 3rem;
+
+  .contact-title {
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: initial;
+  }
+
+  .contact-holder {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      font-size: 4rem;
+      flex-basis: 25%;
+      text-align: center;
+
+      a {
+        color: #FAFAE8;
+
+        &:hover {
+          color: #D690A0;
+        }
+    }
+
+    .contact-icon-title {
+      font-size: 1.3rem;
+      margin: 0;
+      margin-top: -1rem;
+    }
+
+    .contact-icon-copy {
+      font-size: 0.8rem;
+      padding: 2%;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+
+  }
+
+
+}

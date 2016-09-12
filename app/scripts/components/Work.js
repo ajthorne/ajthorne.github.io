@@ -1,10 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router';
+import Scroll from 'react-scroll';
 
 const Work = React.createClass({
   render: function () {
+    let Element = Scroll.Element;
     return (
       <section className="work-container">
+        <Element name="Work"/>
         <h2 className="work-title">Work</h2>
         <ul className="work-holder">
           <li className="work-item">

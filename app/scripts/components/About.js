@@ -1,4 +1,6 @@
 import React from 'react';
+import Scroll from 'react-scroll';
+
 
 const About = React.createClass({
   getInitialState: function () {
@@ -10,6 +12,8 @@ const About = React.createClass({
   },
 
   render: function () {
+    let Element = Scroll.Element;
+
     let modal;
     if (this.state.showModal) {
       modal = (
@@ -25,6 +29,7 @@ const About = React.createClass({
 
     return (
       <section className="about-container">
+        <Element name="About"/>
         <h2 className="about-title">About</h2>
         <p className="about-description">
         Hi! I'm Amanda Thorne, a front end developer currently residing in Austin, Texas.

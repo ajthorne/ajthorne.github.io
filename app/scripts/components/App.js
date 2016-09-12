@@ -13,6 +13,7 @@ const App = React.createClass({
         <Nav/>
         <About/>
         <Work />
+        <Contact/>
         <Footer />
       </div>
     )
