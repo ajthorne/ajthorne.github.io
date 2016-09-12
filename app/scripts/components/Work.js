@@ -7,21 +7,24 @@ const Work = React.createClass({
     return (
       <section className="work-container">
         <Element name="Work"/>
-        <h2 className="work-title">Work</h2>
-        <ul className="work-holder">
+        <section className="featured-work">
+          <h2 className="work-title">Featured Work</h2>
           <li className="work-item">
-          <div className="hoveritem">
-              <a target="_blank" href="http://booknook.surge.sh/">
-              <span>Book Nook Live Site</span>
-              <img src="../../assets/booknook.png"/>
+          <div className="featured-hover">
+              <a className="featured-link" target="_blank" href="http://booknook.surge.sh/">
+              <span className="featured-name">Book Nook</span>
+              <span className="hidden-link">Live Site</span>
               </a>
             </div>
             <p className="work-copy">
-            <span>Book Nook </span>
             An app to support building a literacy community among adolescents. Find new friends, new books to read, and explore an awesome new social media! This was my final project for The Iron Yard and was built using React.js, Node.js, Backbone.js, SASS, HTML5, JavaScript, Kinvey, a back-end service, and Google Books API. This is built for all screen sizes and devices. Build time was 3 weeks.
             View code on GitHub <a target="_blank" className="gh-work-link" href="https://github.com/ajthorne/book-nook">here</a>.
             </p>
           </li>
+
+        </section>
+        <h2 className="work-title">Other Projects</h2>
+        <ul className="work-holder">
           <li className="work-item">
             <div className="hoveritem">
               <a target="_blank" href="http://ajthorne-reactpardy.surge.sh/">
