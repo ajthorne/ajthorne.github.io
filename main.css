@@ -34,7 +34,7 @@ nav {
           color: #79C2B2;
           cursor: pointer; }
 
-@media only screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {
   nav .nav-links li {
     margin-top: 0; }
     nav .nav-links li a {
@@ -151,7 +151,7 @@ nav {
 @media only screen and (max-width: 775px) {
   .work-container .featured-work p {
     margin-top: 8px; } }
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .work-container .work-title {
     font-size: 2rem; }
   .work-container .work-holder {
@@ -159,7 +159,7 @@ nav {
     .work-container .work-holder .work-item {
       flex-basis: 100%;
       margin-bottom: 1rem; } }
-@media only screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {
   .work-container .featured-work p {
     font-size: 1.1rem; }
   .work-container .featured-work .work-title {
@@ -237,18 +237,20 @@ nav {
       .about-container .pdf-modal button .fa-remove {
         font-size: 1.3rem; }
 
-@media only screen and (max-width: 775px) {
+@media screen and (max-width: 775px) {
   .about-container .about-item {
     flex-basis: 100%; } }
-@media only screen and (max-width: 540px) {
-  .about-container .about-holder {
-    padding-left: 2rem; }
-  .about-container .about-title {
-    padding-left: 2rem;
-    font-size: 2rem; }
-  .about-container .about-description {
-    padding-left: 2rem;
-    font-size: 1.3rem; } }
+@media screen and (max-width: 540px) {
+  .about-container {
+    margin-top: 10vh; }
+    .about-container .about-holder {
+      padding-left: 2rem; }
+    .about-container .about-title {
+      padding-left: 2rem;
+      font-size: 2rem; }
+    .about-container .about-description {
+      padding-left: 2rem;
+      font-size: 1.2rem; } }
 .contact-container {
   background: #48A18C;
   padding: 3rem 0.5rem 0.5rem;
@@ -281,16 +283,18 @@ nav {
         margin: 0;
         text-align: center; }
 
-@media only screen and (max-width: 540px) {
-  .contact-container .contact-holder {
-    padding-left: 0; }
-    .contact-container .contact-holder li {
-      font-size: 2.5rem; }
-      .contact-container .contact-holder li .contact-icon-title {
-        font-size: 1.1rem;
-        margin: -0.5rem 0 0; }
-      .contact-container .contact-holder li .contact-icon-copy {
-        display: none; } }
+@media screen and (max-width: 540px) {
+  .contact-container {
+    padding: 1rem 0.5rem 0.5rem; }
+    .contact-container .contact-holder {
+      padding-left: 0; }
+      .contact-container .contact-holder li {
+        font-size: 2.5rem; }
+        .contact-container .contact-holder li .contact-icon-title {
+          font-size: 1rem;
+          margin: -0.5rem 0 0; }
+        .contact-container .contact-holder li .contact-icon-copy {
+          display: none; } }
 footer {
   background: #4B5052;
   color: #FAFAE8;
