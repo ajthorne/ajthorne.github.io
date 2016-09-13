@@ -84,7 +84,7 @@
     }
 }
 
-@media only screen and (max-width: 775px) {
+@media screen and (max-width: 775px) {
   .about-container {
 
     .about-item {
@@ -93,9 +93,10 @@
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {
 
   .about-container {
+    margin-top: 10vh;
     .about-holder {
       padding-left: 2rem;
     }
@@ -106,7 +107,7 @@
 
     .about-description {
       padding-left: 2rem;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 }
