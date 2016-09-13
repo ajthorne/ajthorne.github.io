@@ -2,10 +2,11 @@ nav {
   background: #4B5052;
   color: #FAFAE8;
   width: 100%;
-  // z-index: 99;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-bottom: 12vh;
 
   .logo-header {
     display: inline-block;
@@ -16,7 +17,8 @@ nav {
     border: 5px solid #FAFAE8;
     font-size: 2rem;
     font-family: 'Suez One', serif;
-    // font-family: 'Abril Fatface', cursive;
+    background: #48A18C;
+
   }
 
   .nav-links {
