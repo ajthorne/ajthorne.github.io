@@ -58,6 +58,10 @@
     font-size: 1rem;
     box-shadow:  0.4rem 0.8rem 2.5rem 0rem #70777A;
     font-family: helvetica;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .pdf-modal-container {

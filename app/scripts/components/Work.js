@@ -13,7 +13,6 @@ const Work = React.createClass({
           <div className="featured-hover">
               <a className="featured-link" target="_blank" href="http://booknook.surge.sh/">
               <span className="featured-name">Book Nook</span>
-              <span className="hidden-link">Live Site</span>
               </a>
             </div>
             <p className="work-copy">
@@ -55,3 +54,6 @@ const Work = React.createClass({
 })
 
 export default Work;
+
+//for future...
+// <span className="hidden-link">Live Site</span>
