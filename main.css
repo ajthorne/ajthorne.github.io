@@ -42,7 +42,7 @@ nav {
   background: -o-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
   background: -ms-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
   background: linear-gradient(to right, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#79c2b2', endColorstr='#48a18c', GradientType=1 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#79c2b2', endColorstr='#48a18c', GradientType=1 ); }
   .work-container .featured-work {
     background: linear-gradient(rgba(72, 161, 140, 0.75), rgba(72, 161, 140, 0.75)), url("../../assets/bookheader1.jpeg");
     background-size: cover;
@@ -68,13 +68,10 @@ nav {
         font-weight: 700;
         background: #D690A0;
         padding: 1%;
-        border-radius: 5px; }
-      .work-container .featured-work .featured-hover .hidden-link {
-        display: none;
-        position: absolute;
-        top: 0; }
+        border-radius: 5px;
+        box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A; }
     .work-container .featured-work p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       color: #FAFAE8;
       margin-top: -8px;
       margin-bottom: 0;
@@ -108,7 +105,6 @@ nav {
       text-align: center; }
       .work-container .work-holder .hoveritem img {
         width: 100%;
-        height: 220px;
         object-fit: cover;
         position: relative; }
         .work-container .work-holder .hoveritem img:hover {
@@ -184,6 +180,8 @@ nav {
     font-size: 1rem;
     box-shadow: 0.4rem 0.8rem 2.5rem 0rem #70777A;
     font-family: helvetica; }
+    .about-container button:hover {
+      cursor: pointer; }
   .about-container .pdf-modal-container {
     position: fixed;
     display: flex;
