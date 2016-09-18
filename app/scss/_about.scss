@@ -48,8 +48,10 @@
         font-size: 1rem;
         box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A;
         font-family: helvetica;
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
         &:hover {
             cursor: pointer;
+
         }
     }
     .pdf-modal-container {

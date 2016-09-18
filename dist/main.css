@@ -26,13 +26,20 @@ nav {
       margin-top: 1.5rem;
       margin-right: 0.8rem; }
       nav .nav-links li a {
-        color: #FAFAE8;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0 1rem;
-        vertical-align: middle; }
+        vertical-align: middle;
+        background-color: #FAFAE8;
+        background-image: linear-gradient(to right, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        transition: 0.8s 0.2s;
+        -webkit-background-clip: text; }
         nav .nav-links li a:hover {
-          color: #79C2B2;
-          cursor: pointer; }
+          cursor: pointer;
+          background-position: 0 0;
+          color: transparent;
+          transition: 0.5s 0; }
 
 @media screen and (max-width: 540px) {
   nav .nav-links li {
@@ -208,7 +215,8 @@ nav {
     border: 0;
     font-size: 1rem;
     box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A;
-    font-family: helvetica; }
+    font-family: helvetica;
+    background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.2)); }
     .about-container button:hover {
       cursor: pointer; }
   .about-container .pdf-modal-container {
