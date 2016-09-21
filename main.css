@@ -219,31 +219,6 @@ nav {
     background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.2)); }
     .about-container button:hover {
       cursor: pointer; }
-  .about-container .pdf-modal-container {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1; }
-  .about-container .pdf-modal {
-    background: #79C2B2;
-    z-index: 0;
-    height: 80%;
-    width: 80%;
-    overflow: auto;
-    border-radius: 8px; }
-    .about-container .pdf-modal button {
-      float: right;
-      border: 0;
-      background: transparent;
-      box-shadow: 0 0; }
-      .about-container .pdf-modal button .fa-remove {
-        font-size: 1.3rem; }
 
 @media screen and (max-width: 775px) {
   .about-container .about-item {
@@ -288,6 +263,8 @@ nav {
       .contact-container .contact-holder li .contact-icon-copy {
         font-size: 0.8rem;
         padding: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
         margin: 0;
         text-align: center; }
 
@@ -299,7 +276,7 @@ nav {
       .contact-container .contact-holder li {
         font-size: 2.5rem; }
         .contact-container .contact-holder li .contact-icon-title {
-          font-size: 1rem;
+          font-size: 0.9rem;
           margin: -0.5rem 0 0; }
         .contact-container .contact-holder li .contact-icon-copy {
           display: none; } }
