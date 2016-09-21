@@ -3,29 +3,12 @@ import Scroll from 'react-scroll';
 
 
 const About = React.createClass({
-  getInitialState: function () {
-    return {showModal: false}
-  },
-
   resumeHandler: function () {
-    this.setState({showModal: !this.state.showModal})
+    window.open("/assets/AThorne-Resume.pdf")
   },
 
   render: function () {
     let Element = Scroll.Element;
-
-    let modal;
-    if (this.state.showModal) {
-      modal = (
-      <div className="pdf-modal-container">
-        <div className="pdf-modal">
-        <button><i className="fa fa-remove" onClick={this.resumeHandler}></i></button>
-          <object width="100%" height="100%" type="application/pdf" data="../../assets/AThorne-Resume.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" id="pdf_content">
-          </object>
-        </div>
-      </div>
-      )
-    }
 
     return (
       <section className="about-container">
@@ -51,7 +34,6 @@ const About = React.createClass({
         <div className="button-holder">
           <button onClick={this.resumeHandler}>View My Resumé <i className="fa fa-angle-double-right"></i></button>
         </div>
-        {modal}
       </section>
     )
   }
