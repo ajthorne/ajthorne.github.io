@@ -1,6 +1,6 @@
 #Portfolio
 
-##Live Link[https://ajthorne.github.io]
+##Live Link(https://ajthorne.github.io)
 
 ###Built using React.js and SASS
 
