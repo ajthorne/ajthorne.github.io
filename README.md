@@ -2,7 +2,7 @@
 
 ##https://ajthorne.github.io
 
-###Built using React.js and SASS
+###Built using React.js, HTML5, and SASS
 
 ###Credits
 - Google Fonts

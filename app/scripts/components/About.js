@@ -15,7 +15,7 @@ const About = React.createClass({
         <Element name="About"/>
         <h2 className="about-title">About</h2>
         <p className="about-description">
-        Hi! I'm Amanda Thorne, a front end developer currently residing in Austin, Texas.
+        Hi! I'm Amanda Thorne, a front-end developer currently residing in Austin, Texas.
         </p>
         <ul className="about-holder">
         <li className="about-item">
