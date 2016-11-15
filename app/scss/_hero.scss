@@ -1,0 +1,43 @@
+.hero {
+  margin-top: 10vh;
+  height: 75vh;
+  background: linear-gradient( rgba(72, 161, 140, 0.6), rgba(187, 119, 136, 0.6)), url('../../assets/macbackground.jpg');
+  //credit to unsplash.com for mac bg img
+  background-size: cover;
+  background-position: center;
+
+  .hero-copy {
+    padding-top: 30vh;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+    color: #FAFAE8;
+    text-shadow: 2px 2px 2px #4B5052;
+  }
+
+  .hero-name {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+    line-height: 35%;
+    opacity: .75;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .hero {
+    .hero-name {
+      font-size: 2rem;
+    }
+
+    .hero-title {
+      font-size: 1.4rem;
+    }
+  }
+}

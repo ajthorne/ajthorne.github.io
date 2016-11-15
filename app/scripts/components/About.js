@@ -14,9 +14,6 @@ const About = React.createClass({
       <section className="about-container">
         <Element name="About"/>
         <h2 className="about-title">About</h2>
-        <p className="about-description">
-        Hi! I'm Amanda Thorne, a front-end developer currently residing in Austin, Texas.
-        </p>
         <ul className="about-holder">
         <li className="about-item">
           <h3>Who Am I</h3>
@@ -40,3 +37,7 @@ const About = React.createClass({
 })
 
 export default About
+
+// <p className="about-description">
+// Hi! I'm Amanda Thorne, a front-end developer currently residing in Austin, Texas.
+// </p>
