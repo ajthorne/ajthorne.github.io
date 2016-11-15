@@ -1,0 +1,333 @@
+nav {
+  background: #4B5052;
+  color: #FAFAE8;
+  width: 100%;
+  height: 10vh;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  nav .logo-header {
+    display: inline-block;
+    margin: 1% 1% 1% 2%;
+    font-size: 1rem;
+    font-family: 'Suez One', serif; }
+    nav .logo-header p {
+      margin-bottom: 0; }
+    nav .logo-header .logo-name {
+      font-weight: bold; }
+    nav .logo-header .logo-title {
+      opacity: .7;
+      margin-top: 0; }
+  nav .nav-links {
+    list-style-type: none;
+    float: right;
+    padding: 0;
+    margin-right: 0.5rem; }
+    nav .nav-links li {
+      display: inline-block;
+      font-size: 1.8rem;
+      margin-right: 0.8rem; }
+      nav .nav-links li a {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        vertical-align: middle;
+        background-color: #FAFAE8;
+        background-image: linear-gradient(to right, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        transition: 0.8s 0.2s;
+        -webkit-background-clip: text; }
+        nav .nav-links li a:hover {
+          cursor: pointer;
+          background-position: 0 0;
+          color: transparent;
+          transition: 0.5s 0; }
+
+@media screen and (max-width: 540px) {
+  nav .nav-links li {
+    margin-top: 0; }
+    nav .nav-links li a {
+      padding: 0;
+      font-size: 1rem; }
+  nav .logo-header {
+    margin-top: 0.5rem; } }
+.work-container {
+  width: 100%;
+  padding-bottom: 3rem;
+  margin: 0;
+  color: #FAFAE8;
+  background: #79c2b2;
+  background: -moz-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #79c2b2), color-stop(25%, #d690a2), color-stop(45%, #a2606f), color-stop(72%, #fafae8), color-stop(82%, #fafae8), color-stop(100%, #48a18c));
+  background: -webkit-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+  background: -o-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+  background: -ms-linear-gradient(left, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+  background: linear-gradient(to right, #79c2b2 0%, #d690a2 25%, #a2606f 45%, #fafae8 72%, #fafae8 82%, #48a18c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#79c2b2', endColorstr='#48a18c', GradientType=1 ); }
+  .work-container .featured-work {
+    background: linear-gradient(rgba(72, 161, 140, 0.75), rgba(72, 161, 140, 0.75)), url("../../assets/bookheader1.jpeg");
+    background-size: cover;
+    padding-bottom: 3rem; }
+    .work-container .featured-work .work-item {
+      list-style-type: none;
+      text-align: center; }
+    .work-container .featured-work .work-title {
+      margin: 0;
+      padding-top: 3rem;
+      margin-bottom: 1rem; }
+    .work-container .featured-work .featured-link {
+      text-decoration: none; }
+    .work-container .featured-work .featured-hover {
+      position: relative;
+      text-align: center; }
+      .work-container .featured-work .featured-hover .featured-name {
+        width: 100%;
+        position: relative;
+        color: #FAFAE8;
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        background: #D690A0;
+        padding: 1%;
+        border-radius: 5px;
+        box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A; }
+    .work-container .featured-work p {
+      font-size: 1.3rem;
+      color: #FAFAE8;
+      margin-top: -8px;
+      margin-bottom: 0;
+      padding: 3% 3% 5%;
+      text-align: justify; }
+    .work-container .featured-work .gh-work-link {
+      color: #A2606F;
+      text-decoration: none; }
+      .work-container .featured-work .gh-work-link:hover {
+        color: #FAFAE8; }
+  .work-container .work-title {
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    padding-left: 2.5rem;
+    font-weight: 200;
+    font-family: 'Abril Fatface', cursive; }
+  .work-container .work-holder {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; }
+    .work-container .work-holder .work-item {
+      flex-basis: 47%;
+      margin-right: 1rem;
+      box-sizing: border-box;
+      box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A;
+      background-color: #FAFAE8; }
+    .work-container .work-holder .hoveritem {
+      position: relative;
+      text-align: center; }
+      .work-container .work-holder .hoveritem img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        position: relative; }
+        .work-container .work-holder .hoveritem img:hover {
+          opacity: 0.1; }
+      .work-container .work-holder .hoveritem span {
+        position: absolute;
+        background-color: #FAFAE8;
+        width: 100%;
+        color: #48A18C;
+        top: 45%;
+        font-size: 1.8rem;
+        font-weight: 700; }
+    .work-container .work-holder .work-copy {
+      font-size: 1.1rem;
+      color: #4B5052;
+      margin-top: -8px;
+      margin-bottom: 0;
+      padding: 3%;
+      text-align: justify; }
+      .work-container .work-holder .work-copy span {
+        display: block;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem; }
+      .work-container .work-holder .work-copy .gh-work-link {
+        color: #A2606F;
+        text-decoration: none; }
+        .work-container .work-holder .work-copy .gh-work-link:hover {
+          color: #48A18C; }
+
+@media only screen and (max-width: 775px) {
+  .work-container .featured-work p {
+    margin-top: 8px; } }
+@media screen and (max-width: 575px) {
+  .work-container .work-title {
+    font-size: 2rem; }
+  .work-container .work-holder {
+    padding-left: 2rem; }
+    .work-container .work-holder .work-item {
+      flex-basis: 100%;
+      margin-bottom: 1rem; } }
+@media screen and (max-width: 540px) {
+  .work-container .featured-work p {
+    font-size: 1.1rem; }
+  .work-container .featured-work .work-title {
+    font-size: 2rem; }
+  .work-container .featured-work .featured-hover .featured-name {
+    font-size: 1.5rem; } }
+.about-container {
+  background: #FAFAE8;
+  padding: 3rem 0.5rem 0.5rem;
+  color: #4B5052;
+  padding-bottom: 3rem; }
+  .about-container .about-title {
+    padding-left: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive; }
+  .about-container .about-description {
+    padding-left: 2.5rem;
+    margin: 0;
+    font-size: 1.5rem; }
+  .about-container .about-holder {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    box-sizing: border-box; }
+  .about-container .about-item {
+    flex-basis: 30%;
+    margin-right: 1.5rem;
+    box-sizing: border-box;
+    padding-right: 2%; }
+    .about-container .about-item h3 {
+      font-family: 'Abril Fatface', cursive;
+      margin-bottom: 0;
+      font-size: 1.4rem; }
+    .about-container .about-item p {
+      text-align: justify;
+      font-size: 1.2rem;
+      margin-top: 0.2rem; }
+  .about-container .about-item:not(:last-child) {
+    border-right: 2px solid #4B5052; }
+  .about-container .button-holder {
+    text-align: center; }
+  .about-container button {
+    background: #79C2B2;
+    padding: 1.5%;
+    border-radius: 8px;
+    border: 0;
+    font-size: 1rem;
+    box-shadow: 0.4rem 0.8rem 2.5rem 0 #70777A;
+    font-family: helvetica;
+    background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.2)); }
+    .about-container button:hover {
+      cursor: pointer; }
+
+@media screen and (max-width: 775px) {
+  .about-container .about-item {
+    flex-basis: 100%; }
+  .about-container .about-item:not(:last-child) {
+    border-right: 0; } }
+@media screen and (max-width: 540px) {
+  .about-container .about-holder {
+    padding-left: 2rem; }
+  .about-container .about-title {
+    padding-left: 2rem;
+    font-size: 2rem; }
+  .about-container .about-description {
+    padding-left: 2rem;
+    font-size: 1.2rem; } }
+.contact-container {
+  background: #48A18C;
+  padding: 3rem 0.5rem 0.5rem;
+  color: #FAFAE8;
+  padding-bottom: 3rem; }
+  .contact-container .contact-title {
+    padding-left: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: initial; }
+  .contact-container .contact-holder {
+    list-style-type: none;
+    display: flex; }
+    .contact-container .contact-holder li {
+      font-size: 4rem;
+      flex-basis: 25%;
+      text-align: center; }
+      .contact-container .contact-holder li a {
+        color: #FAFAE8; }
+        .contact-container .contact-holder li a:hover {
+          color: #D690A0; }
+      .contact-container .contact-holder li .contact-icon-title {
+        font-size: 1.3rem;
+        margin: -1rem 0 0; }
+      .contact-container .contact-holder li .contact-icon-copy {
+        font-size: 0.8rem;
+        padding: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0;
+        text-align: center; }
+
+@media screen and (max-width: 540px) {
+  .contact-container {
+    padding: 1rem 0.5rem 0.5rem; }
+    .contact-container .contact-holder {
+      padding-left: 0; }
+      .contact-container .contact-holder li {
+        font-size: 2.5rem; }
+        .contact-container .contact-holder li .contact-icon-title {
+          font-size: 0.9rem;
+          margin: -0.5rem 0 0; }
+        .contact-container .contact-holder li .contact-icon-copy {
+          display: none; } }
+footer {
+  background: #4B5052;
+  color: #FAFAE8;
+  text-align: center;
+  padding: 1%; }
+
+.hero {
+  margin-top: 10vh;
+  height: 75vh;
+  background: linear-gradient(rgba(72, 161, 140, 0.6), rgba(187, 119, 136, 0.6)), url("../../assets/macbackground.jpg");
+  background-size: cover;
+  background-position: center; }
+  .hero .hero-copy {
+    padding-top: 30vh; }
+  .hero p {
+    margin: 0;
+    text-align: center;
+    color: #FAFAE8;
+    text-shadow: 2px 2px 2px #4B5052; }
+  .hero .hero-name {
+    font-size: 2.8rem;
+    font-weight: bold; }
+  .hero .hero-title {
+    font-size: 1.8rem;
+    line-height: 35%;
+    opacity: .75; }
+
+@media screen and (max-width: 400px) {
+  .hero .hero-name {
+    font-size: 2rem; }
+  .hero .hero-title {
+    font-size: 1.4rem; } }
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Scope One', serif;
+  height: 100%;
+  margin: 0; }
+  body .container {
+    min-height: 100%; }
+
+/*# sourceMappingURL=main.css.map */
