@@ -7,6 +7,8 @@
   background-position: center;
 
   .hero-copy {
+    // margin: 0 auto;
+    // width: 50%;
     padding-top: 30vh;
   }
 
@@ -20,6 +22,15 @@
   .hero-name {
     font-size: 2.8rem;
     font-weight: bold;
+
+    // overflow: hidden;
+    // border-right: .15em solid #4B5052; /* The typwriter cursor */
+    // white-space: nowrap; /* Keeps the content on a single line */
+    // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    // letter-spacing: .1em; /* Adjust as needed */
+    // animation:
+    //   typing 3.5s steps(40, end),
+    //   blink-caret 500ms step-end infinite;
   }
 
   .hero-title {
@@ -41,3 +52,13 @@
     }
   }
 }
+
+// @keyframes typing {
+//   from { width: 0 }
+//   to { width: 45% }
+// }
+
+// @keyframes blink-caret {
+//   from, to { border-color: transparent }
+//   50% { border-color: #4B5052; }
+// }
