@@ -17,7 +17,7 @@ const About = React.createClass({
         <ul className="about-holder">
         <li className="about-item">
           <h3>Who Am I</h3>
-          <p>I was born in Pennsylvania and moved to Austin four years ago in pursuit of better weather. I'm a recent graduate from The Iron Yard 12 week immersive program where I learn to code in HTML, CSS, JavaScript, along with using various frameworks such as React.js, Backbone.js, jQuery, and more. I'm a lover of movies, cats, and sand between my toes.</p>
+          <p>I was born in Pennsylvania and moved to Austin five years ago in pursuit of better weather. I graduated from The Iron Yard 12 week immersive program where I learned to code in HTML, CSS, JavaScript, along with using various frameworks such as React.js, Backbone.js, jQuery, and more. I'm a lover of movies, cats, and sand between my toes.</p>
         </li>
         <li className="about-item">
           <h3>Where I've been</h3>

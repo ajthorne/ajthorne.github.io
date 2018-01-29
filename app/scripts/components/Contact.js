@@ -20,10 +20,6 @@ const Contact = React.createClass({
           <h3 className="contact-icon-title">LinkedIn</h3>
           <p className="contact-icon-copy">Connect with me to learn more about my professional experience.</p>
           </li>
-          <li><a target="_blank" href="https://fromteachingtocoding.wordpress.com/"><i className="fa fa-wordpress"></i></a>
-          <h3 className="contact-icon-title">WordPress</h3>
-          <p className="contact-icon-copy">Check out my blog to see what I've been writing about and my thoughts on coding.</p>
-          </li>
           <li><a href="mailto: manda.thorne@gmail.com"><i className="fa fa-envelope"></i></a>
           <h3 className="contact-icon-title">Email</h3>
           <p className="contact-icon-copy">Contact me with any questions, comments, and/or ideas!</p>
@@ -35,3 +31,8 @@ const Contact = React.createClass({
 })
 
 export default Contact;
+
+// <li><a target="_blank" href="https://fromteachingtocoding.wordpress.com/"><i className="fa fa-wordpress"></i></a>
+// <h3 className="contact-icon-title">WordPress</h3>
+// <p className="contact-icon-copy">Check out my blog to see what I've been writing about and my thoughts on coding.</p>
+// </li>
