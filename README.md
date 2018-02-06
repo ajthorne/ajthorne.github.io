@@ -1,9 +1,9 @@
-#Portfolio
+# Portfolio
 
-##https://ajthorne.github.io
+## https://ajthorne.github.io
 
-###Built using React.js, HTML5, and SASS
+### Built using React.js, HTML5, and SASS
 
-###Credits
+### Credits
 - Google Fonts
 - React-Scroll NPM
