@@ -6,7 +6,7 @@ let Link = Scroll.Link;
 const Nav = React.createClass({
   render: function () {
     return (
-      <nav>
+      <nav id="navbar">
         <ul className="nav-links">
           <li><Link to="About" smooth={true} duration={500} offset={-100}>About</Link></li>
           <li><Link to="Work" smooth={true} duration={500} offset={-65}>Work</Link></li>

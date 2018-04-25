@@ -1,15 +1,12 @@
 .hero {
-  margin-top: 9vh;
-  height: 75vh;
+  height: 50vh;
   background: linear-gradient( rgba(72, 161, 140, 0.6), rgba(187, 119, 136, 0.6)), url('../../assets/macbackground.jpg');
   //credit to unsplash.com for mac bg img
   background-size: cover;
   background-position: center;
 
   .hero-copy {
-    // margin: 0 auto;
-    // width: 50%;
-    padding-top: 30vh;
+    padding-top: 20vh;
   }
 
   p {
