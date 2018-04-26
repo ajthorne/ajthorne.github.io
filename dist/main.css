@@ -4,7 +4,7 @@ nav {
   width: 100%;
   z-index: 99;
   height: 9vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0; }
   nav .logo-header {
@@ -43,9 +43,6 @@ nav {
           background-position: 0 0;
           color: transparent;
           transition: 0.5s 0; }
-
-.navbar-fixed-top {
-  background: black; }
 
 @media screen and (max-width: 540px) {
   nav .nav-links li {
