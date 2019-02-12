@@ -28,9 +28,6 @@ const About = React.createClass({
           <p>I'm seeking a full time Front End Development role currently. I value hard work, dedication, and being passionate in whatever you do in life. I desire to be part of a team that values these things as well. My ultimate goal is to work and design education software that helps improve the lives of our youth.</p>
         </li>
         </ul>
-        <div className="button-holder">
-          <button onClick={this.resumeHandler}>View My Resumé <i className="fa fa-angle-double-right"></i></button>
-        </div>
       </section>
     )
   }
@@ -41,3 +38,7 @@ export default About
 // <p className="about-description">
 // Hi! I'm Amanda Thorne, a front-end developer currently residing in Austin, Texas.
 // </p>
+//
+// <div className="button-holder">
+//   <button onClick={this.resumeHandler}>View My Resumé <i className="fa fa-angle-double-right"></i></button>
+// </div>
